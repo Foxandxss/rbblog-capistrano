@@ -1,5 +1,5 @@
 Capistrano::Application.routes.draw do
-  route to: "languages#index"
+  root to: "languages#index"
 
   resources :languages
 
